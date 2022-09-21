@@ -1,6 +1,15 @@
+const dowButton = document.querySelector("#dowButton");
+dowButton.addEventListener("click", () => {
+    console.log("Működik");
+});
+
 var url = "http://localhost:3000/employees";
 
 fetch(url)
-.then(result => result.json())
-.then(data => console.log(data));
+.then(response => response.json())
+.then(result => console.log(result[0].name))
+.catch(error => {
+    console.log("Hiba! A lekérdezés sikertelen!");
+    console.log(error);
+});
 
