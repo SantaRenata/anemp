@@ -1,0 +1,19 @@
+.container{
+    background-color: antiquewhite;
+    border-style: solid;
+    border-color:burlywood;
+    border-radius: 10px;
+}
+
+h1{
+    text-decoration: underline;
+    text-shadow: 2px 5px 4px;
+    text-decoration-color: gray;
+}
+
+table{
+    background-color:bisque;
+    margin: 5px;
+    border-style: dotted;
+    border-width: 3px;    
+}
