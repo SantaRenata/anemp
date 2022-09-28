@@ -17,3 +17,6 @@ table{
     border-style: dotted;
     border-width: 3px;    
 }
+label{
+    margin: 5px;
+}
